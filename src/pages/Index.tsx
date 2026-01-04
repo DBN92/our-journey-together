@@ -10,6 +10,8 @@ import { MoodCheckin } from "@/components/MoodCheckin";
 import { PartnerMessages } from "@/components/PartnerMessages";
 import { WeeklyProgress } from "@/components/WeeklyProgress";
 import { CoupleGoals } from "@/components/CoupleGoals";
+import { AIWorkoutGenerator } from "@/components/AIWorkoutGenerator";
+import { AIMealGenerator } from "@/components/AIMealGenerator";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("home");
@@ -49,6 +51,10 @@ const Index = () => {
             <p className="text-muted-foreground">
               Registre suas refeições sem culpa ou obsessão 💚
             </p>
+            
+            {/* AI Meal Generator */}
+            <AIMealGenerator />
+            
             <MealLogger />
             
             {/* Meal history placeholder */}
@@ -81,6 +87,10 @@ const Index = () => {
             <p className="text-muted-foreground">
               Cada movimento conta, especialmente os feitos juntos 💪
             </p>
+            
+            {/* AI Workout Generator */}
+            <AIWorkoutGenerator />
+            
             <ExerciseLogger />
           </div>
         )}
