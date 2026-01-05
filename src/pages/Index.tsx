@@ -65,7 +65,7 @@ const Index = () => {
       if (data?.id) {
         setCoupleId(data.id as string);
       } else {
-        navigate("/");
+        navigate("/login");
       }
     };
     checkOnboarding();
