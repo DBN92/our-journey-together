@@ -4,23 +4,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const motivationalQuotes = [
   {
     quote: "O progresso vem da constância, não da perfeição.",
-    author: "NósJuntos",
+    author: "Duoos",
   },
   {
     quote: "Juntos, cada passo pequeno se torna uma grande jornada.",
-    author: "NósJuntos",
+    author: "Duoos",
   },
   {
     quote: "Cuidar de si é também cuidar do outro.",
-    author: "NósJuntos",
+    author: "Duoos",
   },
   {
     quote: "Hoje é um novo dia para construir hábitos que amamos.",
-    author: "NósJuntos",
+    author: "Duoos",
   },
   {
     quote: "O amor cresce quando crescemos juntos.",
-    author: "NósJuntos",
+    author: "Duoos",
   },
 ];
 
