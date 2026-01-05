@@ -44,7 +44,7 @@ const Index = () => {
       const { data: userData } = await supabase.auth.getUser();
       const user = userData.user;
       if (!user) {
-        navigate("/onboarding");
+        navigate("/login");
         return;
       }
       const { data: membership } = await supabase
@@ -65,7 +65,7 @@ const Index = () => {
       if (data?.id) {
         setCoupleId(data.id as string);
       } else {
-        navigate("/onboarding");
+        navigate("/");
       }
     };
     checkOnboarding();
